@@ -2,14 +2,16 @@
 ```.py
 import random
 num_A=int(random.randint(1,101))
-print(num_A)
+num_attempts=int(0)
 num_B=int(0)
 while num_B!=num_A:
     num_B=int(input("Player B, enter a number --> "))
+    num_attempts+=1
     if num_B<num_A:
         print("Player A: higher!") 
     if num_B>num_A:
         print("Player A: lower!")
     if num_B==num_A:
         print("Player A: That is the number!")
+        print("Number of attempts={}".format(num_attempts))
 ```
