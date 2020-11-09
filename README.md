@@ -9,12 +9,12 @@ This project is a program to count from 0 to 9. The preceding has been done last
 - Circuits components <br>
 
 ### Justification of the solution
-I will create a program dsiplayed on LEDs which counts from 0 to 9 in braille language when we press different combinations of buttons. As for hardware, I am using 4 LEDs, 4 buttons and an Arduino. It is worth noting that only 4 LEDs will be used out of the 7 provided which optimizes this solution even further. Furthermore, I will be using C++ as a software language since it is the primary coding language for the Arduino and we have had practise sessions during class in that language. In fact in 2017, C++ ranked 4th among 24 other programming languages in September due to its fast processing [1]. <br>
+I will create a program dsiplayed on LEDs which counts from 0 to 9 in braille language when we press different combinations of buttons. As for hardware, I am using 4 LEDs, 4 buttons and an Arduino. It is worth noting that only 4 LEDs will be used out of the 7 provided which optimizes this solution even further. Moreover, I will be using C++ as a software language since it is the primary coding language for the Arduino and we have had practise sessions during class in that language. In fact in 2017, C++ ranked 4th among 24 other programming languages in September [1] due to its fast processing and several built-in functions. The program will be first run on the simulator Tinkercad to avoid damaging the physical components when testing the solution. <br>
 
 [1] Ramasubramanian, Sowmya. “C++ Is Now the Fastest-Growing Programming Language, Report Says.” The Hindu, The Hindu, 11 Sept. 2020, www.thehindu.com/sci-tech/technology/c-is-now-the-fastest-growing-programming-language/article32580426.ece. 
 
 T.E.L.O.S. Study: <br>
-T-Technical-
+T-Technical-Is the project technically possible? We dispose of a computer, Arduino
 E-Economic-
 L-Legal-
 O-Operational-
@@ -26,7 +26,7 @@ S-Scheduling-
 
 ## Criteria B: Design
 ### Initial Sketches
-
+I 
 ## Criteria C: Devolepment
 ## Criteria D: Functionality
 ## Criteria E: Evaluation
