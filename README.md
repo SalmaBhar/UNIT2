@@ -25,8 +25,18 @@ S-Scheduling-
 3. Full Documentation on GitHub <br>
 
 ## Criteria B: Design
+### System Diagram
+We drew the following system diagram in class: <br>
+![alt text](systemdiagram.jpg) <br>
 ### Initial Sketches
-I 
+These are braille numbers:
+![alt text](braillenumbers.png) <br>
+I drew the initial idea of the system in a sketch:
+![alt text](Braillesketch.jpg) <br>
 ## Criteria C: Devolepment
+I started with a truth table of the 4 LEDs: a, b, c, d.
+![alt text](truthtable.png) <br>
+Then I traced the K-maps of each of the 4 LEDs.
+![alt text](kmaps.jpg) <br>
 ## Criteria D: Functionality
 ## Criteria E: Evaluation
