@@ -34,9 +34,15 @@ These are braille numbers: <br>
 I drew the initial idea of the system in a sketch:
 ![alt text](Braillesketch.jpg) <br>
 ## Criteria C: Devolepment
-I started with a truth table of the 4 LEDs: a, b, c, d.
+I started with a truth table of the 4 LEDs: a, b, c, d. <br>
 ![alt text](truthtable.png) <br>
-Then I traced the K-maps of each of the 4 LEDs.
+Then I traced the K-maps of each of the 4 LEDs. <br>
 ![alt text](kmaps.jpg) <br>
+These are the logic gates circuits for each of the 4 LEDs. <br>
+![alt text](logicgatesa.jpg) <br>
+This is the C++ code for the Arduino:
+
 ## Criteria D: Functionality
+VIDEO !!!
 ## Criteria E: Evaluation
+???
