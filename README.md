@@ -29,7 +29,7 @@ S-Scheduling-
 We drew the following system diagram in class: <br>
 ![alt text](systemdiagram.jpg) <br>
 ### Initial Sketches
-These are braille numbers:
+These are braille numbers: <br>
 ![alt text](braillenumbers.png) <br>
 I drew the initial idea of the system in a sketch:
 ![alt text](Braillesketch.jpg) <br>
