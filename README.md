@@ -82,8 +82,8 @@ void loop(){
   int d=(!val_z)&&(!val_w)&&(!val_x)||(!val_x)&&(val_y)&&(val_w)||(val_x)&&(!val_y)&&(!val_w)&&(!val_z);
   digitalWrite(led_d, d);
 }
-
 ```
+The project is simulated on TinkerCat as follows: <>
 ## Criteria D: Functionality
 VIDEO !!!
 ## Criteria E: Evaluation
