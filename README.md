@@ -44,6 +44,7 @@ These are the logic gates circuits for each of the 4 LEDs. <br>
 ![alt text](logicgatesd.jpg) <br>
 This is the C++ code for the Arduino:
 ```cpp
+// This code makes the LEDs count from 0-9 in braille
 // Definitions
 int led_a=11;
 int led_b=8;
