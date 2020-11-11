@@ -33,6 +33,8 @@ These are braille numbers: <br>
 ![alt text](braillenumbers.png) <br>
 I drew the initial idea of the system in a sketch:
 ![alt text](Braillesketch.jpg) <br>
+This is the usage guide for the project <br>
+![alt text](usage.png) <br>
 ## Criteria C: Devolepment
 I started with a truth table of the 4 LEDs: a, b, c, d. <br>
 ![alt text](truthtable.png) <br>
