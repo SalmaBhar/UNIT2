@@ -90,4 +90,3 @@ Using the equipment given to us in class, I assembled the circuit as below: <br>
 ## Criteria D: Functionality
 VIDEO !!!
 ## Criteria E: Evaluation
-???
