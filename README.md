@@ -40,6 +40,8 @@ Then I traced the K-maps of each of the 4 LEDs. <br>
 ![alt text](kmaps.jpg) <br>
 These are the logic gates circuits for each of the 4 LEDs. <br>
 ![alt text](logicgatesa.jpg) <br>
+![alt text](logicgatesbc.jpg) <br>
+![alt text](logicgatesd.jpg) <br>
 This is the C++ code for the Arduino:
 ```cpp
 // Definitions
