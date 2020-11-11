@@ -14,11 +14,11 @@ I will create a program dsiplayed on LEDs which counts from 0 to 9 in braille la
 [1] Ramasubramanian, Sowmya. “C++ Is Now the Fastest-Growing Programming Language, Report Says.” The Hindu, The Hindu, 11 Sept. 2020, www.thehindu.com/sci-tech/technology/c-is-now-the-fastest-growing-programming-language/article32580426.ece. 
 
 T.E.L.O.S. Study: <br>
-T-Technical-Is the project technically possible? We dispose of a computer, Arduino
-E-Economic-
-L-Legal-
-O-Operational-
-S-Scheduling-
+T-Technical-Is the project technically possible? We dispose of a computer, Arduino, TinkerCat simulator, Arduino IDE for C++ code and circuits components. All technical necessities for this project are satisfied. <br>
+E-Economic- Can the project be afforded? Will it increase profit? This project is developed for free by UWC ISAK Japan students. Thanks to the funding provided to our school, we can afford all of the components necessary for the project. <br>
+L-Legal- Is the project legal? The project is completely legal as the 1947 Japanese constitution does not criminalize small digital projects like ours. <br>
+O-Operational- How will the current operations support the change? The project will operate on computers and Arduino. The process does not have any errors and is perfectly operational. <br>
+S-Scheduling- Can the project be done in time? We are given 3 weeks to complete this project and the tasks have been regularly distributed to assure that it is completed by Thursday, November 11th, 2020. <br>
 ### Criteria for success
 1. There are no bugs in the program <br>
 2. Provides clear signage of the counting <br>
