@@ -1,5 +1,5 @@
 # UNIT 2 - Salma Bhar
-# Braille Counting Project
+# Project Braille
 ## Criteria A: Planning
 ### Context of the problem
 This project is a program to count from 0 to 9. The preceding has been done last year with the current G12s who used the standard 7 figures to count. Therefore, this year's G11s will have to think outside the box and come up with more creative ways to create a program with the purpose of counting while using the same criteria and resources. We will dispose of: <br>
