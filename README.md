@@ -41,7 +41,46 @@ Then I traced the K-maps of each of the 4 LEDs. <br>
 These are the logic gates circuits for each of the 4 LEDs. <br>
 ![alt text](logicgatesa.jpg) <br>
 This is the C++ code for the Arduino:
+```cpp
+// Definitions
+int led_a=11;
+int led_b=8;
+int led_c=7;
+int led_d=10;
+int btn_x=6;
+int btn_y=12;
+int btn_z=13;
+int btn_w=5;
+int val_x=0;
+int val_y=0;
+int val_z=0; 
+int val_w=0;  
 
+// Setup of the inputs/outputs
+void setup(){
+  pinMode(led_a, OUTPUT);
+  pinMode(led_b, OUTPUT);
+  pinMode(led_c, OUTPUT);
+  pinMode(led_d, OUTPUT);
+}
+
+// Equations
+void loop(){
+  val_x=digitalRead(btn_x);
+  val_y=digitalRead(btn_y);
+  val_z=digitalRead(btn_z);
+  val_w=digitalRead(btn_w);
+  int a=(!val_z)&&(val_w)&&(!val_x)||(val_z)&&(val_w)&&(!val_x)||(val_z)&&(!val_w)&&(!val_x)||(!val_z)&&(!val_w)&&(!val_x)&&(val_y)||(!val_z)&&(!val_w)&&(val_x)&&(!val_y);
+  digitalWrite(led_a, a);
+  int b=(!val_z)&&(!val_w)&&(!val_x)||(val_z)&&(val_w)&&(!val_x)||(val_z)&&(!val_w)&&(!val_x)&&(val_y)||(!val_z)&&(val_w)&&(val_x)&&(!val_y);
+  digitalWrite(led_b, b);
+  int c=(val_x)&&(!val_y)&&(!val_z)||(val_x)&&(!val_y)&&(!val_z)||(!val_x)&&(!val_y)&&(!val_w);
+  digitalWrite(led_c, c);
+  int d=(!val_z)&&(!val_w)&&(!val_x)||(!val_x)&&(val_y)&&(val_w)||(val_x)&&(!val_y)&&(!val_w)&&(!val_z);
+  digitalWrite(led_d, d);
+}
+
+```
 ## Criteria D: Functionality
 VIDEO !!!
 ## Criteria E: Evaluation
