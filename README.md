@@ -83,7 +83,10 @@ void loop(){
   digitalWrite(led_d, d);
 }
 ```
-The project is simulated on TinkerCat as follows: <>
+The project is simulated on TinkerCat as follows: <br>
+![alt text](arduinosimulation.png) <br>
+Using the equipment given to us in class, I assembled the circuit as below: <br>
+![alt text](circuit.jpg) <br>
 ## Criteria D: Functionality
 VIDEO !!!
 ## Criteria E: Evaluation
