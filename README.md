@@ -25,6 +25,13 @@ S-Scheduling- Can the project be done in time? We are given 3 weeks to complete 
 3. A table showing the operation of the buttons and numbers 0-9 is included. <br>
 4. The display uses maximum 7 LEDs and 4 buttons. <br>
 ## Criteria B: Design
+### Test Plan
+|                                       Test                                       |                                                           Expected Outcome                                                           | Met? |
+|:--------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------:|:----:|
+| Crit.1. Follow the table with number/LED's equivalence to check each number 0-9  | If you press the buttons combination for number 0, the display shows pattern for number 0 and same thing for the rest of the numbers | YES  |
+| Crit.2. A table is provided with LED sequences for each number 0-9               | Reading the table, the pattern of LEDs for each number 0-9 is presented                                                              | YES  |
+| Crit.3. A table is provided showing the operation of the buttons and numbers 0-9 | Reading the table, the operations of the buttons and numbers 0-9 are presented                                                       | YES  |
+| Crit.4. Check if the display uses maximum 7 LEDs and 4 buttons                   | Counting the LEDs and buttons shown, there should be max 7 LEDs and 4 buttons                                                        | YES  |
 ### System Diagram
 We drew the following system diagram in class: <br>
 ![alt text](systemdiagram.jpg) <br>
