@@ -90,5 +90,6 @@ The project is simulated on TinkerCat as follows: <br>
 Using the equipment given to us in class, I assembled the circuit as below: <br>
 ![alt text](circuit.jpg) <br>
 ## Criteria D: Functionality
-VIDEO !!!
+This video shows the program counting from 0-9 by pressing the different combinations of buttons: <br>
+![alt text](testingvideo.mp4) <br>
 ## Criteria E: Evaluation
