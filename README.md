@@ -20,10 +20,10 @@ L-Legal- Is the project legal? The project is completely legal as the 1947 Japan
 O-Operational- How will the current operations support the change? The project will operate on computers and Arduino. The process does not have any errors and is perfectly operational. <br>
 S-Scheduling- Can the project be done in time? We are given 3 weeks to complete this project and the tasks have been regularly distributed to assure that it is completed by Thursday, November 11th, 2020. <br>
 ### Criteria for success
-1. There are no bugs in the program <br>
-2. Provides clear signage of the counting <br>
-3. Full Documentation on GitHub <br>
-
+1. The display should count from 0-9. <br>
+2. A table showing each number 0-9 and the corresponding LEDs is included. <br>
+3. A table showing the operation of the buttons and numbers 0-9 is included. <br>
+4. The display uses maximum 7 LEDs and 4 buttons. <br>
 ## Criteria B: Design
 ### System Diagram
 We drew the following system diagram in class: <br>
