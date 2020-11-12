@@ -79,7 +79,7 @@ void loop(){
   digitalWrite(led_a, a);
   int b=(!val_z)&&(!val_w)&&(!val_x)||(val_z)&&(val_w)&&(!val_x)||(val_z)&&(!val_w)&&(!val_x)&&(val_y)||(!val_z)&&(val_w)&&(val_x)&&(!val_y);
   digitalWrite(led_b, b);
-  int c=(val_x)&&(!val_y)&&(!val_z)||(val_x)&&(!val_y)&&(!val_z)||(!val_x)&&(!val_y)&&(!val_w);
+  int c=(val_x)&&(!val_y)&&(!val_z)||(!val_x)&&(val_y)&&(val_z)||(!val_x)&&(!val_y)&&(!val_w);
   digitalWrite(led_c, c);
   int d=(!val_z)&&(!val_w)&&(!val_x)||(!val_x)&&(val_y)&&(val_w)||(val_x)&&(!val_y)&&(!val_w)&&(!val_z);
   digitalWrite(led_d, d);
