@@ -3,7 +3,7 @@
 #include <LiquidCrystal.h>
 int index = 0; 
 // add all the letters and digits to the keyboard
-String keyboard[]={"SEND", "DEL","A", "B", "C", "D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z",};
+String keyboard[]={"SEND", "DEL","A", "B", "C", "D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
 String text = "";
 int numOptions = 28;
 
@@ -16,33 +16,33 @@ int btn_left=3;
 LiquidCrystal lcd(12, 11, 5, 4, 9, 8);
 
 void setup() {
-// set up the LCD's number of columns and rows:
-lcd.begin(16, 2);
-Serial.begin(9600);
-// Print a message to the LCD.
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+  Serial.begin(9600);
+  // Print a message to the LCD.
 
-// This two commands create interruptions for the buttons.
-// Interruptions are a way of telling the arduino to pay 
-// attention to specific events, in this case the buttons
-attachInterrupt(0, changeLetter, RISING);//button A in port 2
-attachInterrupt(1, selected, RISING);//button B in port 3
-pinMode(13, OUTPUT);
+  // These two commands create interruptions for the buttons.
+  // Interruptions are a way of telling the arduino to pay 
+  // attention to specific events, in this case the buttons
+  attachInterrupt(0, changeLetter, RISING);//button A in port 2
+  attachInterrupt(1, selected, RISING);//button B in port 3
+  pinMode(13, OUTPUT);
 }
 
 void loop() {
-// set the cursor to column 0, line 1
-// (note: line 1 is the second row, since counting begins with 0):
-lcd.clear();
-lcd.setCursor(0, 0);
-lcd.print(keyboard[index]);
-lcd.setCursor(0, 1);
-lcd.print(text);
-delay(100);
+  // set the cursor to column 0, line 1
+  // (note: line 1 is the second row, since counting begins with 0):
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  lcd.print(keyboard[index]);
+  lcd.setCursor(0, 1);
+  lcd.print(text);
+  delay(100);
 }
 
 //This function changes the letter in the keyboard
 void changeLetter(){
-	index++;
+ 	index++;
 //check for the max row number
 	if(index==numOptions){
 		index=0; //loop back to first row
@@ -60,7 +60,8 @@ void selected(){
   else if(key == "SEND")
   {
       En2Morse();
-  }else{
+  }
+  else{
       text += key;
   }
       index = 0; //restart the index
@@ -83,109 +84,109 @@ void dot(){
   
 void En2Morse(){
   Serial.print(text);
-  for(int i=0; i<text.length; i++){
-    if text[i]=="A"{
+  for(int i=0; i<text.length(); i++){
+    if(text[i]=='A'){
     dot();
-      dash();}
-    else if text[i]=="B"{
+    dash();}
+    else if(text[i]=='B'){
     dash();
     dot();
     dot();
     dot();}
-    else if text[i]=="C"{
+    else if(text[i]=='C'){
     dot();
     dot();
     dot();}
-    else if text[i]=="D"{
+    else if(text[i]=='D'){
     dash();
     dot();
     dot();}
-    else if text[i]=="E"{
+    else if(text[i]=='E'){
     dot();}
-    else if text[i]=="F"{
+    else if(text[i]=='F'){
     dot();
     dash();
     dot();}
-    else if text[i]=="G"{
+    else if(text[i]=='G'){
     dash();
     dash();
     dot();}
-    else if text[i]=="H"{
+    else if(text[i]=='H'){
     dot();
     dot();
     dot();
     dot();}
-    else if text[i]=="I"{
+    else if(text[i]=='I'){
     dot();
     dot();}
-    else if text[i]=="J"{
+    else if(text[i]=='J'){
     dash();
     dot();
     dash();
     dot();}
-    else if text[i]=="K"{
+    else if(text[i]=='K'){
     dash();
     dot();
     dash();}
-    else if text[i]=="L"{
+    else if(text[i]=='L'){
     dot();
     dash();
     dot();
     dot();}
-    else if text[i]=="M"{
+    else if(text[i]=='M'){
     dash();
     dash();}
-    else if text[i]=="N"{
+    else if(text[i]=='N'){
     dash();
     dot();}
-    else if text[i]=="O"{
+    else if(text[i]=='O'){
     dash();
     dash();
     dash();}
-    else if text[i]=="P"{
+    else if(text[i]=='P'){
     dot();
     dash();
     dash();
     dot();}
-    else if text[i]=="Q"{
+    else if(text[i]=='Q'){
     dash();
     dash();
     dot();
     dash();}
-    else if text[i]=="R"{
+    else if(text[i]=='R'){
     dot();
     dash();
     dot();}
-    else if text[i]=="S"{
+    else if(text[i]=='S'){
     dot();
     dot();
     dot();}
-    else if text[i]=="T"{
+    else if(text[i]=='T'){
     dash();}
-    else if text[i]=="U"{
-    dot();
-    dot();
-    dash();}
-    else if text[i]=="V"{
-    dot();
+    else if(text[i]=='U'){
     dot();
     dot();
     dash();}
-    else if text[i]=="W"{
+    else if(text[i]=='V'){
+    dot();
+    dot();
+    dot();
+    dash();}
+    else if(text[i]=='W'){
     dot();
     dash();
     dash();}
-    else if text[i]=="X"{
+    else if(text[i]=='X'){
     dash();
     dot();
     dot();
     dash();}
-    else if text[i]=="Y"{
+    else if(text[i]=='Y'){
     dash();
     dot();
     dash();
     dash();}
-    else if text[i]=="Z"{
+    else if(text[i]=='Z'){
     dash();
     dash();
     dot();
