@@ -8,7 +8,7 @@ String text = "";
 int numOptions = 28;
 
 // definitions of components
-int led=13;
+int led=10;
 int btn_right=2;
 int btn_left=3;
   
@@ -69,17 +69,23 @@ void selected(){
 }
 
 void dash(){
+  	Serial.println("sending a dash");
 	digitalWrite(led, HIGH);
-	delay(1500);
+    Serial.println("led on");
+	delay(2000);
     digitalWrite(led, LOW);
-	delay(1500);
+    Serial.println("led off");
+	delay(2000);
 }
 
 void dot(){
+    Serial.println("sending a dot");
 	digitalWrite(led, HIGH);
-	delay(500);
+    Serial.println("led on");
+	delay(1500);
 	digitalWrite(led, LOW);
-	delay(500);
+    Serial.println("led off");
+	delay(1500);
 }
   
 void En2Morse(){
@@ -87,7 +93,7 @@ void En2Morse(){
   for(int i=0; i<text.length(); i++){
     if(text[i]=='A'){
     dot();
-    dash();}
+    dash();}    
     else if(text[i]=='B'){
     dash();
     dot();
@@ -191,7 +197,6 @@ void En2Morse(){
     dash();
     dot();
     dot();}
-  }
-  
+  }  
 }
 ```
