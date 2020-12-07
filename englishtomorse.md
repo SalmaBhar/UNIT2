@@ -78,6 +78,7 @@ void dash(){
 	delay(2000);
 }
 
+// definition of the dash and dot functions for the Morse Language
 void dot(){
     Serial.println("sending a dot");
 	digitalWrite(led, HIGH);
@@ -87,7 +88,8 @@ void dot(){
     Serial.println("led off");
 	delay(1500);
 }
-  
+
+// equivalent of the English alphabet in Morse Code
 void En2Morse(){
   Serial.print(text);
   for(int i=0; i<text.length(); i++){
