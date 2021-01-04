@@ -33,10 +33,10 @@ S-Scheduling- Can the project be done in time? We are given 3 weeks to complete 
 | Crit.4. Check if the display uses maximum 7 LEDs and 4 buttons                   | Counting the LEDs and buttons shown, there should be max 7 LEDs and 4 buttons                                                        | YES  |
 ### System Diagram
 We drew the following system diagram in class: <br>
-![alt text]() <br>
+![alt text](EtoMsystemdiagram.png) <br>
 ### Initial Sketches
-These ia the English alphabet in Morse Code: <br>
-![alt text]() <br>
+This is the English alphabet in Morse Code: <br>
+![alt text](morsealphabet.jpg) <br>
 I drew the initial idea of the system in a sketch:
 ![alt text]() <br>
 This is the usage guide for the project <br>
@@ -248,8 +248,8 @@ void En2Morse(){
 }
 ```
 The project is simulated on TinkerCat as follows: <br>
-![alt text]() <br>
-Using the equipment given to us in class, I assembled the circuit as below: <br>
+![alt text](EtoMsimulation.png) <br>
+Using the equipment given to us in class, our team assembled the circuit as below: <br>
 ![alt text]() <br>
 ## Criteria D: Functionality
 ## Criteria E: Evaluation
