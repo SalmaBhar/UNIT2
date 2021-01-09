@@ -16,17 +16,11 @@ def SameFirstLast(x):
 ```
 ### Quiz 3
 ```py
-values=[20,6,38,50,40]
-limit=0
-for counter_1 in range(0, limit-1):
-    minimum=counter_1
-    for counter_2 in range(counter_1+1, limit):
-        if values[counter_2]<values[minimum]:
-            minimum=counter_2
-    if minimum!=counter_1:
-        temporary==values[minimum]
-        values[minimum]==values[counter_1]
-        values[counter_1]==temporary
+def wordLength(s):
+    sum=0
+    for i in range(0, len(s)):
+        sum+=len(s[i])
+    return (sum, len(s))
 ```
 ### Quiz 4
 ```py
@@ -85,20 +79,40 @@ def MixStart(str):
         return True
     return False
 ```
-### Quiz 1
+### Quiz 11
 ```py
-def ibmarks(array):
-    frequency=[0,0,0,0,0,0,0]
-    for a in array:
-        frequency[a-1]+=1
-    retur
-    n ["{} --> {}".format(i+1,f) for i,f in enumerate(frequency)]
+def letters(x):
+    for i in range(0, len(x)+1):
+        print(i,"->",x[i])
 ```
-### Quiz 1
+### Quiz 12
 ```py
-def ibmarks(array):
-    frequency=[0,0,0,0,0,0,0]
-    for a in array:
-        frequency[a-1]+=1
-    return ["{} --> {}".format(i+1,f) for i,f in enumerate(frequency)]
+def maxAbs(numbers):
+    max=0
+    for i in range(0, len(numbers)):
+        if numbers[i]>max:
+            max=numbers[i]
+    return max
+```
+### Quiz 13
+```py
+def missingNumber(x):
+    for i in range(0, len(x)-1):
+        if x[i]!=x[i+1]-1:
+            print(x[i]+1)
+```
+### Quiz 14
+```py
+def BigNeighbour(x):
+    difference=0
+    difference_max=0
+    for i in range(0, len(x)-1):
+        difference=abs(x[i+1]-x[i])
+        if difference>difference_max:
+            difference_max=difference
+    return difference_max
+```
+### Quiz 15
+```py
+idk
 ```
