@@ -112,7 +112,4 @@ def BigNeighbour(x):
             difference_max=difference
     return difference_max
 ```
-### Quiz 15
-```py
-idk
-```
+
