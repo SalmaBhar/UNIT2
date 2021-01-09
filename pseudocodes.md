@@ -28,6 +28,36 @@ for counter_1 in range(0, limit-1):
         values[minimum]==values[counter_1]
         values[counter_1]==temporary
 ```
+### Quiz 4
+```py
+def Or35(x):
+    if x%5==0 or x%3==0:
+        return True
+    return False
+```
+### Quiz 5
+```py
+def Makes10(a, b):
+    if a+b==10 or a==10 or b==10:
+        return True
+    return False
+```
+### Quiz 6
+```py
+def has271(x):
+    for i in range(0,len(x)-1):
+        if x[i+1]==x[i]+5 and x[i+2]==x[i]-1:
+            return True
+    return False
+```
+### Quiz 1
+```py
+def ibmarks(array):
+    frequency=[0,0,0,0,0,0,0]
+    for a in array:
+        frequency[a-1]+=1
+    return ["{} --> {}".format(i+1,f) for i,f in enumerate(frequency)]
+```
 ### Quiz 1
 ```py
 def ibmarks(array):
@@ -51,6 +81,15 @@ def ibmarks(array):
     for a in array:
         frequency[a-1]+=1
     return ["{} --> {}".format(i+1,f) for i,f in enumerate(frequency)]
+```
+### Quiz 1
+```py
+def ibmarks(array):
+    frequency=[0,0,0,0,0,0,0]
+    for a in array:
+        frequency[a-1]+=1
+    retur
+    n ["{} --> {}".format(i+1,f) for i,f in enumerate(frequency)]
 ```
 ### Quiz 1
 ```py
