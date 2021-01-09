@@ -50,37 +50,40 @@ def has271(x):
             return True
     return False
 ```
-### Quiz 1
+### Quiz 7
 ```py
-def ibmarks(array):
-    frequency=[0,0,0,0,0,0,0]
-    for a in array:
-        frequency[a-1]+=1
-    return ["{} --> {}".format(i+1,f) for i,f in enumerate(frequency)]
+def IntMax(a, b, c):
+    if b>=a:
+        if b>=c:
+            max=b
+        else:
+            max=c
+    else:
+        if a>=c:
+            max=a
+        else:
+            max=c
+    return max
 ```
-### Quiz 1
+### Quiz 8
 ```py
-def ibmarks(array):
-    frequency=[0,0,0,0,0,0,0]
-    for a in array:
-        frequency[a-1]+=1
-    return ["{} --> {}".format(i+1,f) for i,f in enumerate(frequency)]
+def rangeN(n):
+    for i in range(0, n):
+        print(i)
 ```
-### Quiz 1
+### Quiz 9
 ```py
-def ibmarks(array):
-    frequency=[0,0,0,0,0,0,0]
-    for a in array:
-        frequency[a-1]+=1
-    return ["{} --> {}".format(i+1,f) for i,f in enumerate(frequency)]
+def perfectN(n):
+    for i in range(1, n-1):
+        if n%i==0:
+            print(i)
 ```
-### Quiz 1
+### Quiz 10
 ```py
-def ibmarks(array):
-    frequency=[0,0,0,0,0,0,0]
-    for a in array:
-        frequency[a-1]+=1
-    return ["{} --> {}".format(i+1,f) for i,f in enumerate(frequency)]
+def MixStart(str):
+    if str[1]=="i" and str[2]=="x":
+        return True
+    return False
 ```
 ### Quiz 1
 ```py
