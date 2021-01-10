@@ -12,7 +12,7 @@ print(Makes10(9, 9))
 print(Makes10(1, 9))
 ```
 ![alt text](Q1test.png) <br>
-![alt text]() <br>
+![alt text](flow1.jpg) <br>
 ![alt text]() <br>
 ### Quiz 2
 ```py
@@ -35,7 +35,7 @@ print(IntMax(1, 3, 2))
 print(IntMax(3, 2, 1))
 ```
 ![alt text](Q2test.png) <br>
-![alt text]() <br>
+![alt text](flow2.jpg) <br>
 ![alt text]() <br>
 ### Quiz 3
 ```py
@@ -47,7 +47,7 @@ def rangeN(n):
 rangeN(6)
 ```
 ![alt text](Q3test.png) <br>
-![alt text]() <br>
+![alt text](flow3.jpg) <br>
 ![alt text]() <br>
 ### Quiz 4
 ```py
@@ -60,7 +60,7 @@ def perfectN(n):
 perfectN(6)
 ```
 ![alt text](Q4test.png) <br>
-![alt text]() <br>
+![alt text](flow4.jpg) <br>
 ![alt text]() <br>
 ### Quiz 5 
 ```py
@@ -72,8 +72,7 @@ def tableM(x):
 tableM(2)
 ```
 ![alt text](Q5test.png) <br>
-![alt text]() <br>
-![alt text]() <br>
+![alt text](flow5.jpg) <br>
 ### Quiz 6
 ```py
 # Code definition of function
@@ -87,7 +86,7 @@ print(MixStart('pix snacks'))
 print(MixStart('piz snacks'))
 ```
 ![alt text](Q6test.png) <br>
-![alt text]() <br>
+![alt text](flow6.jpg) <br>
 ![alt text]() <br>
 ### Quiz 7
 ```py
@@ -99,7 +98,7 @@ def letters(x):
 letters('hello')
 ```
 ![alt text](Q7test.png) <br>
-![alt text]() <br>
+![alt text](flow7.jpg) <br>
 ![alt text]() <br>
 ### Quiz 8
 ```py
@@ -116,7 +115,7 @@ maxAbs([-1, 0, 1])
 maxAbs([-100, 0, 3,-200])
 ```
 ![alt text](Q8test.png) <br>
-![alt text]() <br>
+![alt text](flow8.jpg) <br>
 ![alt text]() <br>
 ### Quiz 9
 ```py
@@ -131,7 +130,7 @@ missingNumber([4, 5, 6, 8, 9, 10])
 missingNumber([73, 74, 75, 76, 78, 79])
 ```
 ![alt text](Q9test.png) <br>
-![alt text]() <br>
+![alt text](flow9.jpg) <br>
 ![alt text]() <br>
 ### Quiz 10
 ```py
@@ -150,7 +149,7 @@ print(BigNeighbour([0, 5, 6, 10]))
 print(BigNeighbour([73, 74, 174, 76, 78, 79]))
 ```
 ![alt text](Q10test.png) <br>
-![alt text]() <br>
+![alt text](flow10.jpg) <br>
 ![alt text]() <br>
 ### Quiz 11
 ```py
@@ -165,7 +164,7 @@ print(SameFirstLast([1, 2, 3, 1]))
 print(SameFirstLast([1, 2, 1]))
 ```
 ![alt text](Q11test.png) <br>
-![alt text]() <br>
+![alt text](flow11.jpg) <br>
 ![alt text]() <br>
 ### Quiz 12
 ```py
@@ -181,5 +180,5 @@ print(wordlength(["sun","sat","cut","can"]))
 print(wordlength(["police", "abacus"]))
 ```
 ![alt text](Q12test.png) <br>
-![alt text]() <br>
+![alt text](flow12.jpg) <br>
 ![alt text]() <br>
