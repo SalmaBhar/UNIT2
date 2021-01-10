@@ -11,6 +11,9 @@ print(Makes10(9, 10))
 print(Makes10(9, 9))
 print(Makes10(1, 9))
 ```
+![alt text](Q1test.png) <br>
+![alt text]() <br>
+![alt text]() <br>
 ### Quiz 2
 ```py
 # Code definition of function
@@ -31,6 +34,9 @@ print(IntMax(1, 2, 3))
 print(IntMax(1, 3, 2))
 print(IntMax(3, 2, 1))
 ```
+![alt text](Q2test.png) <br>
+![alt text]() <br>
+![alt text]() <br>
 ### Quiz 3
 ```py
 # Code definition of function
@@ -40,6 +46,9 @@ def rangeN(n):
 # Tests
 rangeN(6)
 ```
+![alt text](Q3test.png) <br>
+![alt text]() <br>
+![alt text]() <br>
 ### Quiz 4
 ```py
 # Code definition of function
@@ -50,6 +59,9 @@ def perfectN(n):
 # Tests
 perfectN(6)
 ```
+![alt text](Q4test.png) <br>
+![alt text]() <br>
+![alt text]() <br>
 ### Quiz 5 
 ```py
 # Code definition of function
@@ -59,6 +71,9 @@ def tableM(x):
 # Tests
 tableM(2)
 ```
+![alt text](Q5test.png) <br>
+![alt text]() <br>
+![alt text]() <br>
 ### Quiz 6
 ```py
 # Code definition of function
@@ -71,6 +86,9 @@ print(MixStart('mix snacks'))
 print(MixStart('pix snacks'))
 print(MixStart('piz snacks'))
 ```
+![alt text](Q6test.png) <br>
+![alt text]() <br>
+![alt text]() <br>
 ### Quiz 7
 ```py
 # Code definition of function
@@ -80,6 +98,9 @@ def letters(x):
 # Tests
 letters('hello')
 ```
+![alt text](Q7test.png) <br>
+![alt text]() <br>
+![alt text]() <br>
 ### Quiz 8
 ```py
 # Code definition of function
@@ -94,6 +115,9 @@ maxAbs([-4, 5, 6, -7])
 maxAbs([-1, 0, 1])
 maxAbs([-100, 0, 3,-200])
 ```
+![alt text](Q8test.png) <br>
+![alt text]() <br>
+![alt text]() <br>
 ### Quiz 9
 ```py
 # Code definition of function
@@ -106,6 +130,9 @@ missingNumber([1, 2, 3, 5, 6, 7])
 missingNumber([4, 5, 6, 8, 9, 10])
 missingNumber([73, 74, 75, 76, 78, 79])
 ```
+![alt text](Q9test.png) <br>
+![alt text]() <br>
+![alt text]() <br>
 ### Quiz 10
 ```py
 # Code definition of function
@@ -122,6 +149,9 @@ print(BigNeighbour([1, 2, 3, 5, 6, 7]))
 print(BigNeighbour([0, 5, 6, 10]))
 print(BigNeighbour([73, 74, 174, 76, 78, 79]))
 ```
+![alt text](Q10test.png) <br>
+![alt text]() <br>
+![alt text]() <br>
 ### Quiz 11
 ```py
 # Code definition of function
@@ -134,6 +164,9 @@ print(SameFirstLast([1, 2, 3]))
 print(SameFirstLast([1, 2, 3, 1]))
 print(SameFirstLast([1, 2, 1]))
 ```
+![alt text](Q11test.png) <br>
+![alt text]() <br>
+![alt text]() <br>
 ### Quiz 12
 ```py
 # Code definition of function
@@ -147,4 +180,6 @@ print(wordlength(["home", "car", "travel", "beach"]))
 print(wordlength(["sun","sat","cut","can"]))
 print(wordlength(["police", "abacus"]))
 ```
-
+![alt text](Q12test.png) <br>
+![alt text]() <br>
+![alt text]() <br>
