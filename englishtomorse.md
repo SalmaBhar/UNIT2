@@ -50,10 +50,15 @@ This is the usage guide for the project <br>
 I started by making the following questionnaire through Google Form and sent it to our client for answers. I received the following answers: <br>
 ![alt text](EtoMquestionnaire1.png) <br>
 **Fig. 5:** Salma's Questionnaire for the customer for product to communicate from the Moon to Earth (English to Binary) <br>
+Link to the form: https://docs.google.com/forms/d/1H1WiqExpZST-eg7Mu7m7e60cFBCgCfaeQDJP1KTEokk/edit <br>
+  <br>
 Then, I got teamed up with my classmates Kazu and Zoe to develop the project together. However, I noticed that my personal questionnaire was originally based on my personal project which consisted in the communication from the Moon to Earth i.e. English to Binary (see Fig. 5). Whereas when I teamed up with my classmates, our collective project consisted on the communication from Earth to the Moon i.e. English to Morse. Therefore, I had to base my project on Zoe's questionnaire, while keeping my personal form since it is still partly relevant, presented in the following Google Form. She received the following responses: <br>
 ![alt text](EtoMquestionnaire2.png) <br>
 **Fig. 6:** Zoe's Questionnaire for the customer for product to communicate from Earth to the Moon (English to Morse) <br>
+Link to the form: https://docs.google.com/forms/d/1sAb2MSjLs3s9Ns5FiN_-gnkdA2HU1GSUKQgszn56wIU/edit?ts=5ff2f5a5&gxids=7628 <br>
+  <br>
 Once we received the answered form, we also conducted one brief face-to-face interview with the customer for further inquiries about the product. <br>
+  <br>
 This is the C++ code for the Arduino: <br>
 ```cpp
 // include the library code:
