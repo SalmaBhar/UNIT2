@@ -28,10 +28,10 @@ S-Scheduling- Can the project be done in time? We are given 3 weeks to complete 
 ### Test Plan (TO CHANGE)
 |                                       Test                                       |                                                           Expected Outcome                                                           | Met? |
 |:--------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------:|:----:|
-| Crit.1. The product allows the user to enter messages in English and send messages in Morse Code. | YES  |
-| Crit.2. The product contains all the alphabet.               | Reading the table, the pattern of LEDs for each number 0-9 is presented                                                              | YES  |
-| Crit.3. The product contains special commands like send and delete. | Reading the table, the operations of the buttons and numbers 0-9 are presented                                                       | YES  |
-| Crit.4. The display uses maximum 1 LED, 1 LCD and 2 buttons.                   | Counting the LEDs and buttons shown, there should be max 7 LEDs and 4 buttons                                                        | YES  |
+| Crit.1. The product allows the user to enter messages in English and send messages in Morse Code.               | If we enter a message "hello" in English through the buttons, we should be able to see it written on the LCD. When the command "send" is pressed, the LED should signal the same message "hello" in Morse Code.                                                              | YES  |
+| Crit.2. The product contains all the alphabet.               | Going through the list of options, we can see the complete English alphabet on the LCD.                                                              | YES  |
+| Crit.3. The product contains special commands like send and delete. | Going through the list of options, we can see and select the commands "send" and "delete" on the LCD.                                                       | YES  |
+| Crit.4. The display uses maximum 1 LED, 1 LCD and 2 buttons.                   | Counting the LEDs and buttons shown, there should be max 1 LED, 1 LCD and 2 buttons.                                                        | YES  |
 ### System Diagram
 We drew the following system diagram in class: <br>
 ![alt text](EtoMsystemdiagram.png) <br>
