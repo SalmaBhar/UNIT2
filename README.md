@@ -107,5 +107,5 @@ Using the equipment given to us in class, I assembled the circuit as below: <br>
 **Fig. 9:** Picture of the project assembled <br>
 ## Criteria D: Functionality
 This video shows the program counting from 0-9 by pressing the different combinations of buttons: <br>
-![alt text](testingvideo.mp4) <br>
+https://youtu.be/id9KqIMceZk
 ## Criteria E: Evaluation
