@@ -25,7 +25,7 @@ S-Scheduling- Can the project be done in time? We are given 3 weeks to complete 
 3. The product contains special commands like send and delete. <br>
 4. The display uses maximum 1 LED, 1 LCD and 2 buttons. <br>
 ## Criteria B: Design
-### Test Plan (TO CHANGE)
+### Test Plan 
 |                                       Test                                       |                                                           Expected Outcome                                                           | Met? |
 |:--------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------:|:----:|
 | Crit.1. The product allows the user to enter messages in English and send messages in Morse Code.               | When we enter a message "hello" in English through the buttons, we should be able to see it written on the LCD. When the command "send" is pressed, the LED should signal the same message "hello" in Morse Code.                                                              | YES  |
@@ -35,13 +35,17 @@ S-Scheduling- Can the project be done in time? We are given 3 weeks to complete 
 ### System Diagram
 We drew the following system diagram in class: <br>
 ![alt text](EtoMsystemdiagram.png) <br>
+**Fig. 1:** System Diagram of the project
 ### Initial Sketches
 This is the English alphabet in Morse Code: <br>
 ![alt text](morsealphabet.jpg) <br>
+**Fig. 2:** Reference for th Morse Alphabet <br>
 I drew the initial idea of the system in a sketch:
 ![alt text]() <br>
+**Fig. 3:** Diagram showing a sketch of the design and mapping of the relationship between the buttons and LCD/LED <br>
 This is the usage guide for the project <br>
 ![alt text]() <br>
+**Fig. 4:** $$$$
 ## Criteria C: Development
 This is the C++ code for the Arduino:
 ```cpp
@@ -250,8 +254,10 @@ void En2Morse(){
 ```
 The project is simulated on TinkerCat as follows: <br>
 ![alt text](EtoMsimulation.png) <br>
+**Fig. 5:** Diagram of the simulation on TinkerCat of the project <br>
 Using the equipment given to us in class, our team assembled the circuit as below: <br>
 ![alt text]() <br>
+**Fig. 6:** Picture of the project assembled
 ## Criteria D: Functionality
 ## Criteria E: Evaluation
 
