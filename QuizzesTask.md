@@ -1,4 +1,8 @@
 # Quizzes Task 
+## All pseudo-codes solved
+![alt text](pseudo1.jpg) <br>
+![alt text](pseudo2.jpg) <br>
+![alt text](pseudo3.jpg) <br>
 ### Quiz 1
 ```py
 # Code definition of function
@@ -13,7 +17,6 @@ print(Makes10(1, 9))
 ```
 ![alt text](Q1test.png) <br>
 ![alt text](flow1.jpg) <br>
-![alt text]() <br>
 ### Quiz 2
 ```py
 # Code definition of function
@@ -36,7 +39,6 @@ print(IntMax(3, 2, 1))
 ```
 ![alt text](Q2test.png) <br>
 ![alt text](flow2.jpg) <br>
-![alt text]() <br>
 ### Quiz 3
 ```py
 # Code definition of function
@@ -48,7 +50,6 @@ rangeN(6)
 ```
 ![alt text](Q3test.png) <br>
 ![alt text](flow3.jpg) <br>
-![alt text]() <br>
 ### Quiz 4
 ```py
 # Code definition of function
@@ -61,7 +62,6 @@ perfectN(6)
 ```
 ![alt text](Q4test.png) <br>
 ![alt text](flow4.jpg) <br>
-![alt text]() <br>
 ### Quiz 5 
 ```py
 # Code definition of function
@@ -87,7 +87,6 @@ print(MixStart('piz snacks'))
 ```
 ![alt text](Q6test.png) <br>
 ![alt text](flow6.jpg) <br>
-![alt text]() <br>
 ### Quiz 7
 ```py
 # Code definition of function
@@ -99,7 +98,6 @@ letters('hello')
 ```
 ![alt text](Q7test.png) <br>
 ![alt text](flow7.jpg) <br>
-![alt text]() <br>
 ### Quiz 8
 ```py
 # Code definition of function
@@ -116,7 +114,6 @@ maxAbs([-100, 0, 3,-200])
 ```
 ![alt text](Q8test.png) <br>
 ![alt text](flow8.jpg) <br>
-![alt text]() <br>
 ### Quiz 9
 ```py
 # Code definition of function
@@ -131,7 +128,6 @@ missingNumber([73, 74, 75, 76, 78, 79])
 ```
 ![alt text](Q9test.png) <br>
 ![alt text](flow9.jpg) <br>
-![alt text]() <br>
 ### Quiz 10
 ```py
 # Code definition of function
@@ -150,7 +146,6 @@ print(BigNeighbour([73, 74, 174, 76, 78, 79]))
 ```
 ![alt text](Q10test.png) <br>
 ![alt text](flow10.jpg) <br>
-![alt text]() <br>
 ### Quiz 11
 ```py
 # Code definition of function
@@ -165,7 +160,6 @@ print(SameFirstLast([1, 2, 1]))
 ```
 ![alt text](Q11test.png) <br>
 ![alt text](flow11.jpg) <br>
-![alt text]() <br>
 ### Quiz 12
 ```py
 # Code definition of function
@@ -181,4 +175,4 @@ print(wordlength(["police", "abacus"]))
 ```
 ![alt text](Q12test.png) <br>
 ![alt text](flow12.jpg) <br>
-![alt text]() <br>
+
