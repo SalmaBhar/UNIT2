@@ -35,7 +35,7 @@ S-Scheduling- Can the project be done in time? We are given 3 weeks to complete 
 ### System Diagram
 We drew the following system diagram in class: <br>
 ![alt text](systemdiagram.jpg) <br>
-**Fig. 1:** System Diagram
+**Fig. 1:** System Diagram of the project
 ### Initial Sketches
 These are braille numbers: <br>
 ![alt text](braillenumbers.png) <br>
