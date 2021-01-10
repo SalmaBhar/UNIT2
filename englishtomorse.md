@@ -35,19 +35,26 @@ S-Scheduling- Can the project be done in time? We are given 3 weeks to complete 
 ### System Diagram
 We drew the following system diagram in class: <br>
 ![alt text](EtoMsystemdiagram.png) <br>
-**Fig. 1:** System Diagram of the project
+**Fig. 1:** System Diagram of the project <br>
 ### Initial Sketches
 This is the English alphabet in Morse Code: <br>
 ![alt text](morsealphabet.jpg) <br>
 **Fig. 2:** Reference for th Morse Alphabet <br>
-I drew the initial idea of the system in a sketch:
-![alt text]() <br>
-**Fig. 3:** Diagram showing a sketch of the design and mapping of the relationship between the buttons and LCD/LED <br>
+I drew the initial idea of the system in a sketch: <br>
+![alt text](EtoMsketch.jpg) <br>
+**Fig. 3:** Diagram showing a sketch of the design of the Earth-Moon communication and mapping of the relationship between the buttons and LCD/LED <br>
 This is the usage guide for the project <br>
 ![alt text]() <br>
 **Fig. 4:** $$$$
 ## Criteria C: Development
-This is the C++ code for the Arduino:
+I started by making the following questionnaire through Google Form and sent it to our client for answers. I received the following answers: <br>
+![alt text](EtoMquestionnaire1.png) <br>
+**Fig. 5:** Salma's Questionnaire for the customer for product to communicate from the Moon to Earth (English to Binary) <br>
+Then, I got teamed up with my classmates Kazu and Zoe to develop the project together. However, I noticed that my personal questionnaire was originally based on my personal project which consisted in the communication from the Moon to Earth i.e. English to Binary (see Fig. 5). Whereas when I teamed up with my classmates, our collective project consisted on the communication from Earth to the Moon i.e. English to Morse. Therefore, I had to base my project on Zoe's questionnaire, while keeping my personal form since it is still partly relevant, presented in the following Google Form. She received the following responses: <br>
+![alt text](EtoMquestionnaire2.png) <br>
+**Fig. 6:** Zoe's Questionnaire for the customer for product to communicate from Earth to the Moon (English to Morse) <br>
+Once we received the answered form, we also conducted one brief face-to-face interview with the customer for further inquiries about the product. <br>
+This is the C++ code for the Arduino: <br>
 ```cpp
 // include the library code:
 #include <LiquidCrystal.h>
@@ -254,11 +261,13 @@ void En2Morse(){
 ```
 The project is simulated on TinkerCat as follows: <br>
 ![alt text](EtoMsimulation.png) <br>
-**Fig. 5:** Diagram of the simulation on TinkerCat of the project <br>
+**Fig. 7:** Diagram of the simulation on TinkerCat of the project <br>
 Using the equipment given to us in class, our team assembled the circuit as below: <br>
-![alt text]() <br>
-**Fig. 6:** Picture of the project assembled
+![alt text](en2morseassembled.jpg) <br>
+**Fig. 8:** Picture of the project assembled
 ## Criteria D: Functionality
+This video shows the user entering the text "HEGI" in English through the 2 buttons. After pressing "send", the message is shown through signals on the green LED: <br>
+https://youtu.be/3gf0I4hQ17o
 ## Criteria E: Evaluation
 
 
