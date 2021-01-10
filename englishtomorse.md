@@ -8,9 +8,10 @@ This project is a program to communicate between the earth and the moon in signa
 - 1 LCD <br>
 
 ### Justification of the solution
-We will create a program dsiplayed on 1 LED and 1 LCD which gets inputs by pressing 2 buttons. As for hardware, we are using 1 LED, 1 LCD, 2 buttons and an Arduino. The product enables us to input messages in English using the right button to cycle through the English alphabet and 2 commands "SEND" and "DELETE". The left button enables us to select letters or commands. The message, then, is converted into Morse Code which is displayed through an LED. Moreover, we will be using C++ as a software language since it is the primary coding language for the Arduino and we have had practise sessions during class in that language. In fact in 2017, C++ ranked 4th among 24 other programming languages in September [1] due to its fast processing and several built-in functions. The program will be first run on the simulator Tinkercad to avoid damaging the physical components when testing the solution. <br>
+We will create a program dsiplayed on 1 LED and 1 LCD which gets inputs by pressing 2 buttons. As for hardware, we are using 1 LED, 1 LCD, 2 buttons and an Arduino. The product enables us to input messages in English using the right button to cycle through the English alphabet and 2 commands "SEND" and "DELETE". The left button enables us to select letters or commands. The message, then, is converted into Morse Code which is displayed through an LED. Moreover, we will be using C++ as a software language since it is the primary coding language for the Arduino and we have had practise sessions during class in that language. In fact in 2017, C++ ranked 4th among 24 other programming languages in September [1] due to its fast processing and several built-in functions. The program will be first run on the simulator Tinkercad to avoid damaging the physical components when testing the solution and thus reduce the costs of this project [2]. <br>
 
 [1] Ramasubramanian, Sowmya. “C++ Is Now the Fastest-Growing Programming Language, Report Says.” The Hindu, The Hindu, 11 Sept. 2020, www.thehindu.com/sci-tech/technology/c-is-now-the-fastest-growing-programming-language/article32580426.ece. 
+[2] TinkerCAD Review: Pricing, Pros, Cons &amp; Features. (2020, May 14). Retrieved January 10, 2021, from https://comparecamp.com/tinkercad-review-pricing-pros-cons-features/#:~:text=The%20main%20benefits%20of%20TinkerCAD,%2C%20and%20user%2Dfriendly%20interface.&amp;text=TinkerCAD%20allows%20businesses%20to%20produce,to%20pay%20for%20large%20warehouses.
 
 T.E.L.O.S. Study: <br>
 T-Technical-Is the project technically possible? We dispose of a computer, Arduino, TinkerCat simulator, Arduino IDE for C++ code and circuits components. All technical necessities for this project are satisfied. <br>
@@ -20,17 +21,17 @@ O-Operational- How will the current operations support the change? The project w
 S-Scheduling- Can the project be done in time? We are given 3 weeks to complete this project and the tasks have been regularly distributed to assure that it is completed by Friday, December 18th, 2020. <br>
 ### Criteria for success
 1. The product allows the user to enter messages in English and send messages in Morse Code. <br>
-2.  The product contains all the alphabet and numbers <br>
-3. The product contains special commands like send and delete <br>
+2. The product contains all the alphabet. <br>
+3. The product contains special commands like send and delete. <br>
 4. The display uses maximum 1 LED, 1 LCD and 2 buttons. <br>
 ## Criteria B: Design
 ### Test Plan (TO CHANGE)
 |                                       Test                                       |                                                           Expected Outcome                                                           | Met? |
 |:--------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------:|:----:|
-| Crit.1. Follow the table with number/LED's equivalence to check each number 0-9  | If you press the buttons combination for number 0, the display shows pattern for number 0 and same thing for the rest of the numbers | YES  |
-| Crit.2. A table is provided with LED sequences for each number 0-9               | Reading the table, the pattern of LEDs for each number 0-9 is presented                                                              | YES  |
-| Crit.3. A table is provided showing the operation of the buttons and numbers 0-9 | Reading the table, the operations of the buttons and numbers 0-9 are presented                                                       | YES  |
-| Crit.4. Check if the display uses maximum 7 LEDs and 4 buttons                   | Counting the LEDs and buttons shown, there should be max 7 LEDs and 4 buttons                                                        | YES  |
+| Crit.1. The product allows the user to enter messages in English and send messages in Morse Code. | YES  |
+| Crit.2. The product contains all the alphabet.               | Reading the table, the pattern of LEDs for each number 0-9 is presented                                                              | YES  |
+| Crit.3. The product contains special commands like send and delete. | Reading the table, the operations of the buttons and numbers 0-9 are presented                                                       | YES  |
+| Crit.4. The display uses maximum 1 LED, 1 LCD and 2 buttons.                   | Counting the LEDs and buttons shown, there should be max 7 LEDs and 4 buttons                                                        | YES  |
 ### System Diagram
 We drew the following system diagram in class: <br>
 ![alt text](EtoMsystemdiagram.png) <br>
