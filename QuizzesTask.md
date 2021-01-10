@@ -88,11 +88,11 @@ def maxAbs(numbers):
     for i in range(0, len(numbers)):
         if abs(numbers[i])>max:
             max=abs(numbers[i])
-    return ("max absolute is ", max)
+    print("max absolute is ", max)
 # Tests
-print(maxAbs([-4, 5, 6, -7]))
-print(maxAbs([-1, 0, 1]))
-print(maxAbs([-100, 0, 3,-200]))
+maxAbs([-4, 5, 6, -7])
+maxAbs([-1, 0, 1])
+maxAbs([-100, 0, 3,-200])
 ```
 ### Quiz 9
 ```py
