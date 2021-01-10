@@ -35,7 +35,7 @@ print(IntMax(3, 2, 1))
 ```py
 # Code definition of function
 def rangeN(n):
-    for i in range(0, n):
+    for i in range(0, n+1):
         print(i)
 # Tests
 print(rangeN(6))
