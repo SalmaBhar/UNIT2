@@ -1,4 +1,4 @@
-# Turning Pseudo-codes into python code
+# Quizzes Task 
 ### Quiz 1
 ```py
 # Code definition of function
@@ -50,9 +50,14 @@ def perfectN(n):
 # Tests
 print(perfectN(6))
 ```
-### Quiz 5 (TableM)
+### Quiz 5 
 ```py
-
+# Code definition of function
+def tableM(x):
+    for i in range(1, 10):
+        print(x,"x",i,"=",x*i)
+# Tests
+print(tableM(2))
 ```
 ### Quiz 6
 ```py
