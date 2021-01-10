@@ -38,7 +38,7 @@ def rangeN(n):
     for i in range(0, n+1):
         print(i)
 # Tests
-print(rangeN(6))
+rangeN(6)
 ```
 ### Quiz 4
 ```py
@@ -48,7 +48,7 @@ def perfectN(n):
         if n%i==0:
             print(i)
 # Tests
-print(perfectN(6))
+perfectN(6)
 ```
 ### Quiz 5 
 ```py
@@ -57,7 +57,7 @@ def tableM(x):
     for i in range(1, 10):
         print(x,"x",i,"=",x*i)
 # Tests
-print(tableM(2))
+tableM(2)
 ```
 ### Quiz 6
 ```py
@@ -78,7 +78,7 @@ def letters(x):
     for i in range(0, len(x)+1):
         print(i,'->',x[i])
 # Tests
-print(letters('hello'))
+letters('hello')
 ```
 ### Quiz 8
 ```py
@@ -137,14 +137,14 @@ print(SameFirstLast([1, 2, 1]))
 ### Quiz 12
 ```py
 # Code definition of function
-def wordLength(s):
+def wordlength(s):
     sum=0
     for i in range(0, len(s)):
         sum+=len(s[i])
     return (sum, len(s))
 # Tests
-print(wordlength({"home", "car", "travel", "beach"}))
-print(wordlength({"sun","sat","cut","can"}))
-print(wordlength({"police", "abacus"}))
+print(wordlength(["home", "car", "travel", "beach"]))
+print(wordlength(["sun","sat","cut","can"]))
+print(wordlength(["police", "abacus"]))
 ```
 
