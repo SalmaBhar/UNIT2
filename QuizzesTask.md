@@ -76,7 +76,7 @@ print(MixStart('piz snacks'))
 # Code definition of function
 def letters(x):
     for i in range(0, len(x)+1):
-        print(i,"->",x[i])
+        print(i,'->',x[i])
 # Tests
 print(letters('hello'))
 ```
