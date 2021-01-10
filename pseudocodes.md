@@ -1,11 +1,14 @@
 # Turning Pseudo-codes into python code
 ### Quiz 1
 ```py
-def ibmarks(array):
-    frequency=[0,0,0,0,0,0,0]
-    for a in array:
-        frequency[a-1]+=1
-    return ["{} --> {}".format(i+1,f) for i,f in enumerate(frequency)]
+def BigNeighbour(x):
+    difference=0
+    difference_max=0
+    for i in range(0, len(x)-1):
+        difference=abs(x[i+1]-x[i])
+        if difference>difference_max:
+            difference_max=difference
+    return difference_max
 ```
 ### Quiz 2
 ```py
@@ -100,16 +103,5 @@ def missingNumber(x):
     for i in range(0, len(x)-1):
         if x[i]!=x[i+1]-1:
             print(x[i]+1)
-```
-### Quiz 14
-```py
-def BigNeighbour(x):
-    difference=0
-    difference_max=0
-    for i in range(0, len(x)-1):
-        difference=abs(x[i+1]-x[i])
-        if difference>difference_max:
-            difference_max=difference
-    return difference_max
 ```
 
