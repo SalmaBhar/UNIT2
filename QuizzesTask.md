@@ -102,9 +102,9 @@ def missingNumber(x):
         if x[i]!=x[i+1]-1:
             print(x[i]+1)
 # Tests
-print(missingNumber([1, 2, 3, 5, 6, 7]))
-print(missingNumber([4, 5, 6, 8, 9, 10]))
-print(missingNumber([73, 74, 75, 76, 78, 79]))
+missingNumber([1, 2, 3, 5, 6, 7])
+missingNumber([4, 5, 6, 8, 9, 10])
+missingNumber([73, 74, 75, 76, 78, 79])
 ```
 ### Quiz 10
 ```py
