@@ -52,14 +52,7 @@ print(perfectN(6))
 ```
 ### Quiz 5 (TableM)
 ```py
-def BigNeighbour(x):
-    difference=0
-    difference_max=0
-    for i in range(0, len(x)-1):
-        difference=abs(x[i+1]-x[i])
-        if difference>difference_max:
-            difference_max=difference
-    return difference_max
+
 ```
 ### Quiz 6
 ```py
@@ -76,54 +69,77 @@ print(MixStart('piz snacks'))
 ### Quiz 7
 ```py
 # Code definition of function
+def letters(x):
+    for i in range(0, len(x)+1):
+        print(i,"->",x[i])
+# Tests
+print(letters('hello'))
+```
+### Quiz 8
+```py
+# Code definition of function
+def maxAbs(numbers):
+    max=0
+    for i in range(0, len(numbers)):
+        if abs(numbers[i])>max:
+            max=abs(numbers[i])
+    return ("max absolute is ", max)
+# Tests
+print(maxAbs([-4, 5, 6, -7]))
+print(maxAbs([-1, 0, 1]))
+print(maxAbs([-100, 0, 3,-200]))
+```
+### Quiz 9
+```py
+# Code definition of function
+def missingNumber(x):
+    for i in range(0, len(x)-1):
+        if x[i]!=x[i+1]-1:
+            print(x[i]+1)
+# Tests
+print(missingNumber([1, 2, 3, 5, 6, 7]))
+print(missingNumber([4, 5, 6, 8, 9, 10]))
+print(missingNumber([73, 74, 75, 76, 78, 79]))
+```
+### Quiz 10
+```py
+# Code definition of function
+def BigNeighbour(x):
+    difference=0
+    difference_max=0
+    for i in range(0, len(x)-1):
+        difference=abs(x[i+1]-x[i])
+        if difference>difference_max:
+            difference_max=difference
+    return difference_max
+# Tests
+print(BigNeighbour([1, 2, 3, 5, 6, 7])) 
+print(BigNeighbour([0, 5, 6, 10]))
+print(BigNeighbour([73, 74, 174, 76, 78, 79]))
+```
+### Quiz 11
+```py
+# Code definition of function
 def SameFirstLast(x):
     if len(x)>=1 and x[0]==x[-1]:
         return True
     return False
+# Tests
+print(SameFirstLast([1, 2, 3]))
+print(SameFirstLast([1, 2, 3, 1]))
+print(SameFirstLast([1, 2, 1]))
 ```
-### Quiz 8
+### Quiz 12
 ```py
+# Code definition of function
 def wordLength(s):
     sum=0
     for i in range(0, len(s)):
         sum+=len(s[i])
     return (sum, len(s))
-```
-### Quiz 9
-```py
-def Or35(x):
-    if x%5==0 or x%3==0:
-        return True
-    return False
-```
-### Quiz 10
-```py
-def has271(x):
-    for i in range(0,len(x)-1):
-        if x[i+1]==x[i]+5 and x[i+2]==x[i]-1:
-            return True
-    return False
-```
-### Quiz 11
-```py
-def letters(x):
-    for i in range(0, len(x)+1):
-        print(i,"->",x[i])
-```
-### Quiz 12
-```py
-def maxAbs(numbers):
-    max=0
-    for i in range(0, len(numbers)):
-        if numbers[i]>max:
-            max=numbers[i]
-    return max
-```
-### Quiz 13
-```py
-def missingNumber(x):
-    for i in range(0, len(x)-1):
-        if x[i]!=x[i+1]-1:
-            print(x[i]+1)
+# Tests
+print(wordlength({"home", "car", "travel", "beach"}))
+print(wordlength({"sun","sat","cut","can"}))
+print(wordlength({"police", "abacus"}))
 ```
 
