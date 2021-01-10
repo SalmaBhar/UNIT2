@@ -1,5 +1,5 @@
 # UNIT 2 - Salma Bhar
-# Project Braille
+# Braille Counter
 ## Criteria A: Planning
 ### Context of the problem
 This project is a program to count from 0 to 9. The preceding has been done last year with the current G12s who used the standard 7 figures to count. Therefore, this year's G11s will have to think outside the box and come up with more creative ways to create a program with the purpose of counting while using the same criteria and resources. We will dispose of: <br>
@@ -35,22 +35,29 @@ S-Scheduling- Can the project be done in time? We are given 3 weeks to complete 
 ### System Diagram
 We drew the following system diagram in class: <br>
 ![alt text](systemdiagram.jpg) <br>
+**Fig. 1:** System Diagram
 ### Initial Sketches
 These are braille numbers: <br>
 ![alt text](braillenumbers.png) <br>
+**Fig. 2:** Reference for braille numbers
 I drew the initial idea of the system in a sketch:
 ![alt text](Braillesketch.jpg) <br>
+**Fig. 3:** Diagram showing the mapping between LEDs and the numbers in the braille language 
 This is the usage guide for the project <br>
 ![alt text](usage.png) <br>
+**Fig. 4:** A guide table with number/button-combination equivalence
 ## Criteria C: Development
 I started with a truth table of the 4 LEDs: a, b, c, d. <br>
 ![alt text](truthtable.png) <br>
+**Fig. 5:** Truth table of the LEDs a, b, c, d
 Then I traced the K-maps of each of the 4 LEDs. <br>
 ![alt text](kmaps.jpg) <br>
+**Fig. 6** Diagram of K-maps of the LEDs a, b, c, d
 These are the logic gates circuits for each of the 4 LEDs. <br>
 ![alt text](logicgatesa.jpg) <br>
 ![alt text](logicgatesbc.jpg) <br>
 ![alt text](logicgatesd.jpg) <br>
+**Fig. 7:** Diagram of logic circuits of the LEDs a, b, c, d
 This is the C++ code for the Arduino:
 ```cpp
 // This code makes the LEDs count from 0-9 in braille
@@ -94,8 +101,10 @@ void loop(){
 ```
 The project is simulated on TinkerCat as follows: <br>
 ![alt text](arduinosimulation.png) <br>
+**Fig. 8:** Diagram of the simulation on TinkerCat of the project
 Using the equipment given to us in class, I assembled the circuit as below: <br>
 ![alt text](circuit.jpg) <br>
+**Fig. 9:** Picture of the projct assembled
 ## Criteria D: Functionality
 This video shows the program counting from 0-9 by pressing the different combinations of buttons: <br>
 ![alt text](testingvideo.mp4) <br>
