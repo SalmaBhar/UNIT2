@@ -1,3 +1,4 @@
+# English2Morse Space Communication Project 
 ## Criteria A: Planning
 ### Context of the problem
 This project is a program to communicate between the earth and the moon in signals. Focusing on the earth's side sending messages to the moon's side, our program inputs English text on an LCD and outputs messages in Morse Code using an LED. We will dispose of: <br>
