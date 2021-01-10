@@ -39,25 +39,25 @@ We drew the following system diagram in class: <br>
 ### Initial Sketches
 These are braille numbers: <br>
 ![alt text](braillenumbers.png) <br>
-**Fig. 2:** Reference for braille numbers
+**Fig. 2:** Reference for braille numbers <br>
 I drew the initial idea of the system in a sketch:
 ![alt text](Braillesketch.jpg) <br>
-**Fig. 3:** Diagram showing the mapping between LEDs and the numbers in the braille language 
+**Fig. 3:** Diagram showing the mapping between LEDs and the numbers in the braille language <br>
 This is the usage guide for the project <br>
 ![alt text](usage.png) <br>
-**Fig. 4:** A guide table with number/button-combination equivalence
+**Fig. 4:** A guide table with number/button-combination equivalence <br>
 ## Criteria C: Development
 I started with a truth table of the 4 LEDs: a, b, c, d. <br>
 ![alt text](truthtable.png) <br>
-**Fig. 5:** Truth table of the LEDs a, b, c, d
+**Fig. 5:** Truth table of the LEDs a, b, c, d <br>
 Then I traced the K-maps of each of the 4 LEDs. <br>
 ![alt text](kmaps.jpg) <br>
-**Fig. 6** Diagram of K-maps of the LEDs a, b, c, d
+**Fig. 6** Diagram of K-maps of the LEDs a, b, c, d <br>
 These are the logic gates circuits for each of the 4 LEDs. <br>
 ![alt text](logicgatesa.jpg) <br>
 ![alt text](logicgatesbc.jpg) <br>
 ![alt text](logicgatesd.jpg) <br>
-**Fig. 7:** Diagram of logic circuits of the LEDs a, b, c, d
+**Fig. 7:** Diagram of logic circuits of the LEDs a, b, c, d <br>
 This is the C++ code for the Arduino:
 ```cpp
 // This code makes the LEDs count from 0-9 in braille
@@ -101,10 +101,10 @@ void loop(){
 ```
 The project is simulated on TinkerCat as follows: <br>
 ![alt text](arduinosimulation.png) <br>
-**Fig. 8:** Diagram of the simulation on TinkerCat of the project
+**Fig. 8:** Diagram of the simulation on TinkerCat of the project <br>
 Using the equipment given to us in class, I assembled the circuit as below: <br>
 ![alt text](circuit.jpg) <br>
-**Fig. 9:** Picture of the projct assembled
+**Fig. 9:** Picture of the project assembled <br>
 ## Criteria D: Functionality
 This video shows the program counting from 0-9 by pressing the different combinations of buttons: <br>
 ![alt text](testingvideo.mp4) <br>
