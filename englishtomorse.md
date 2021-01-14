@@ -34,33 +34,33 @@ S-Scheduling- Can the project be done in time? We are given 3 weeks to complete 
 | Crit.3. The product contains special commands like send and delete. | Going through the list of options, we can see and select the commands "send" and "delete" on the LCD.                                                       | YES  |
 | Crit.4. The display uses maximum 1 LED, 1 LCD and 2 buttons.                   | Counting the LEDs and buttons shown, there should be max 1 LED, 1 LCD and 2 buttons.                                                        | YES  |
 ### System Diagram
-We drew the following system diagram in class: <br>
+I started by drawing the following system diagram in class: <br>
 ![alt text](EtoMsystemdiagram.png) <br>
 **Fig. 1:** System Diagram of the project <br>
 ### Initial Sketches
-This is the English alphabet in Morse Code: <br>
+Next, I searched up the English alphabet and its equivalent in Morse Code. This will be used as reference for the code later. <br>
 ![alt text](morsealphabet.jpg) <br>
 **Fig. 2:** Reference for th Morse Alphabet <br>
-I drew the initial idea of the system in a sketch: <br>
+I drew the initial idea of the overall Moon-Earth communication system in a sketch. Our product will focus on the earth side. <br>
 ![alt text](EtoMsketch.jpg) <br>
 **Fig. 3:** Diagram showing a sketch of the design of the Earth-Moon communication and mapping of the relationship between the buttons and LCD/LED <br>
-This is the usage guide for the project <br>
+This is the usage guide for the product detailed in steps and indicating the functionality of each component and the relationship between them in order to successfully type a message in English and send it in Morse Code through LED signals. <br>
 ![alt text](EtoMUsageGuide.jpg) <br>
 **Fig. 4:** A diagram serving as a usage guide for the product in steps
 ## Criteria C: Development
-I started by making the following questionnaire through Google Form and sent it to our client for answers. I received the following answers: <br>
+In order to be as accurate as possible and for the sake of maximizing the satisfaction of our customer, I started by making the following questionnaire through Google Forms and sent it to our client for answers. I received the following answers: <br>
 ![alt text](EtoMquestionnaire1.png) <br>
 **Fig. 5:** Salma's Questionnaire for the customer for product to communicate from the Moon to Earth (English to Binary) <br>
 Link to the form: https://docs.google.com/forms/d/1H1WiqExpZST-eg7Mu7m7e60cFBCgCfaeQDJP1KTEokk/edit <br>
   <br>
-Then, I got teamed up with my classmates Kazu and Zoe to develop the project together. However, I noticed that my personal questionnaire was originally based on my personal project which consisted in the communication from the Moon to Earth i.e. English to Binary (see Fig. 5). Whereas when I teamed up with my classmates, our collective project consisted on the communication from Earth to the Moon i.e. English to Morse. Therefore, I had to base my project on Zoe's questionnaire, while keeping my personal form since it is still partly relevant, presented in the following Google Form. She received the following responses: <br>
+Then, I got teamed up with my classmates Kazu and Zoe to develop the project together. However, I noticed that my personal questionnaire was originally based on my personal project which consisted in the communication from the Moon to Earth i.e. English to Binary (see Fig. 5). Whereas when I teamed up with my classmates, our collective project consisted on the communication from Earth to the Moon i.e. English to Morse. Therefore, I had to shift the project and adapt it to my teammate Zoe's questionnaire, while keeping my personal form since it is still partly relevant i.e. deadline and budget, presented in the following Google Form. She received the following responses: <br>
 ![alt text](EtoMquestionnaire2.png) <br>
 **Fig. 6:** Zoe's Questionnaire for the customer for product to communicate from Earth to the Moon (English to Morse) <br>
 Link to the form: https://docs.google.com/forms/d/1sAb2MSjLs3s9Ns5FiN_-gnkdA2HU1GSUKQgszn56wIU/edit?ts=5ff2f5a5&gxids=7628 <br>
   <br>
-Once we received the answered form, we also conducted one brief face-to-face interview with the customer for further inquiries about the product. <br>
+Once we received the answered form, we also conducted one brief face-to-face interview with the customer for further inquiries about the product as we continued to move forward with the development of the code. <br>
   <br>
-This is the C++ code for the Arduino: <br>
+We ended up with the following C++ code which will be run on Arduino: <br>
 ```cpp
 // include the library code:
 #include <LiquidCrystal.h>
@@ -265,15 +265,15 @@ void En2Morse(){
   }  
 }
 ```
-The project is simulated on TinkerCat as follows: <br>
+The project is then simulated on TinkerCad in order to avoid damaging the equipment in case of errors and for the sake of lowering our budget. We assembled the following circuit: <br>
 ![alt text](EtoMsimulation.png) <br>
 **Fig. 7:** Diagram of the simulation on TinkerCat of the project <br>
-Using the equipment given to us in class, our team assembled the circuit as below: <br>
+After further testing on TinkerCad and assuring that the circuit and code are fully-functionning and bug-free, our team used the equipment given to us in class to assemble the circuit as below: <br>
 ![alt text](en2morseassembled.jpg) <br>
-**Fig. 8:** Picture of the project assembled
+**Fig. 8:** Picture of the project assembled in class
 ## Criteria D: Functionality
-This video shows the user entering the text "HEGI" in English through the 2 buttons. After pressing "send", the message is shown through signals on the green LED: <br>
-https://youtu.be/3gf0I4hQ17o
+We referred to the usage guide (see Fig. 4) to demonstrate the functionality of the product. This video shows the user entering the text "HEGI" in English through the 2 buttons. After pressing "send", the message is shown through signals on the green LED: <br>
+Video Link: https://youtu.be/3gf0I4hQ17o
 ## Criteria E: Evaluation
 
 
