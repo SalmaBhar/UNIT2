@@ -161,8 +161,8 @@ I drew the initial idea of the system in a sketch: <br>
 ![alt text](EtoMsketch.jpg) <br>
 **Fig. 3:** Diagram showing a sketch of the design of the Earth-Moon communication and mapping of the relationship between the buttons and LCD/LED <br>
 This is the usage guide for the project <br>
-![alt text]() <br>
-**Fig. 4:** $$$$
+![alt text](EtoMUsageGuide.jpg) <br>
+**Fig. 4:** A diagram serving as a usage guide for the product in steps
 ## Criteria C: Development
 I started by making the following questionnaire through Google Form and sent it to our client for answers. I received the following answers: <br>
 ![alt text](EtoMquestionnaire1.png) <br>
